@@ -3,7 +3,7 @@ name 'Math-Lsoda';
 all_from 'lib/Math/Lsoda.pm';
 
 requires 'Any::Moose' => '0.11';
-requires 'ExtUtils::F77' => '1.16';
+build_requires 'ExtUtils::F77' => '1.16';
 
 require ExtUtils::F77;
 my $compiler;

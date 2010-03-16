@@ -3,6 +3,7 @@ abstract: 'Solve ordinary differential equation systems using lsoda.'
 author:
   - 'Naoya Sato <synclover@gmail.com>'
 build_requires:
+  ExtUtils::F77: 1.16
   ExtUtils::MakeMaker: 6.42
   Test::More: 0
 configure_requires:
@@ -21,8 +22,7 @@ no_index:
     - xt
 requires:
   Any::Moose: 0.11
-  ExtUtils::F77: 1.16
   perl: 5.8.1
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
